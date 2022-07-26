@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* style of background image */
+.part1 {
+    background-image: url(/assets/shutterstock_348320018.png);
+    opacity: 2;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+     height: 500px;
+
+
+
+
+}
+
+/* login and create an account button style */
+.bt1 {
+
+    padding: 10px 10px;
+    letter-spacing: 0;
+    opacity: 1;
+    margin: 2px 5px;
+    background-color: tomato;
+
+
+}
+
+/* login and create an account button style */
+.button {
+    display: flex;
+    justify-content: end;
+    text-align: center;
+
+
+}
+
+/* logo  style */
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+
+}
+
+/* logo image style */
+.img1 {
+    border-radius: 50px;
+    border: 1px solid black;
+
+}
+
+/* h1 heading style  */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* select the city style bar */
+.sbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* style of sbar box */
+select {
+    width: 200px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+/* sreach the food item styling */
+.sbar2 {
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-left: 10px;
+
+}
+
+/* search button style */
+.sbar3 {
+    width: 70px;
+    height: 43px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-left: 10px;
+    border-radius: 2px;
+    background-color: green;
+    color: white;
+    font-weight: 100;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* section{
+   background-image: url(/assets/shutterstock_348320018@2x.png);
+   
+} */
+.part2{
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    height: 500px;
+}
+.part2 .heading{
+    padding-top: 15px;
+    color: #192F60;
+    margin-left: 190px;
+    opacity: 1;
+}
+
+
+
+.cards-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+.cards-section2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.cards{
+    width: 360px;
+    height: 160px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    margin-right: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.cards .card-body{
+    border: 1px solid #fff;
+   
+}
+.cards .content{
+    margin-top: 35px;
+    justify-content: right;
+    text-align: center;
+    color: #192F60;
+    opacity: 1;
+}
+
